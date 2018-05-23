@@ -1,0 +1,13 @@
+ body {
+  line-height: 2em;
+  background: #A4A4A4;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.form {
+  line-height: 3em;
+  background: #F2F2F2;
+  font-family: sans-serif;
+  text-align: center;
+}

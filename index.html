@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+      <title>Desafio Laboratoria</title>
+
+      <link rel="stylesheet" href="trivia.css">
+
+  </head>
+
+  <body>
+    <h1>Trabalhando com formularios</h1>
+    <h2>Trivia</h2>
+      <form class="formulario" action="index.html" method="post">
+            Name: <input type="text" id="nomeEntrada"  placeholder="Insert here">
+            <br>
+            <div class="perguntas">
+              1. HTML é considerado uma linguagem de programação?
+              <input id="s1" type="radio" name="html"> sim
+              <input id="n1" type="radio" name="html"> não
+              <br>
+              2. O significado de CSS é Cascading Style Script?
+              <input id="s2" type="radio" name="css"> sim
+              <input id="n2" type="radio" name="css"> não
+              <br>
+              3. Em JS, existe diferença entre null e undefined?
+              <input id="s3" type="radio" name="something"> sim
+              <input id="n3" type="radio" name="something"> não
+              <br>
+              <button type="button"  onclick="show()">Enviar</button>
+
+            </div>
+
+      </form>
+
+      Bem-vindo(a), <span id="nomeSaida"></span>
+
+<!-- Respostas -->
+    <p>Resultado:</p>
+      <br>
+      1.<p id='correct1'></p>
+      <p id='wrong1'></p>
+        <br>
+      2.<p id='correct2'></p>
+        <p id='wrong2'></p>
+        <br>
+      3.<p id='correct3'></p>
+        <p id='wrong3'></p>
+
+  </body>
+  <script type="text/Javascript" src="datrivia.js"></script>
+
+  <!-- Link JS -->
+
+</html>
